@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data
   label: Sitemap
-  match: "**/*"
 - type: heading
   label: Content
 - type: jekyll-pages
@@ -16,8 +15,8 @@ sections:
   templates:
   - landing-page
   - page
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: content
+public_path: "/Content"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
